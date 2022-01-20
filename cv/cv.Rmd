@@ -1,0 +1,80 @@
+---
+title: CV
+name: Josh M.
+surname: London
+position: "Wildlife Biologist"
+address: "Marine Mammal Laboratory, Alaska Fisheries Science Center, NOAA Fisheries, Seattle, Washington, USA"
+email: "josh.london@noaa.gov"
+twitter: jomilo75
+github: jmlondon
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::markdowncv:
+    theme: davewhipp
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+## Personal Statement
+Wildlife biologist responsible for collaborative design, implementation and
+management of research and analysis related to seal ecology and conservation in
+Alaska. Species of focus include harbor seals and the ice-associated seals
+(ribbon, spotted, bearded, and ringed seal). Research areas of interest include
+modeling of marine mammal movement and behavior from deployed tags, survey
+design and abundance estimation from aerial surveys, haul-out and dive behavior
+and application of new technologies to improve ecological research. Expertise in
+R and literate programming approaches (e.g. Rmarkdown) and am increasingly
+focussed on open science, reproducibility in ecological analysis, and serve as
+an Openscapes (https://www.openscapes.org/) advocate and mentor within AFSC and
+NMFS.
+
+## Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "B.S.", "1993-1997", "College of Forest Resrouces, Univ. of Washington", "Seattle, WA, USA",
+  "Ph.D.", "1998-2006", "School of Aquatic & Fishery Sciences, Univ. of Washington", "Seattle, WA, USA"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Dissertation
+
+```{r}
+tribble(
+  ~ Title, ~ With, ~ Desc, ~Where, ~ When, 
+  "Harbor Seals in Hood Canal: Predators and Prey", "Univ. of Washington","Research focused on estimation of predation of endangered summer chum salmon by harbor seals in Hood Canal, Washington. Additional research efforts to estimate consumption of harbor seals by Bigg's killer whales. Also expanded on early techniques for extracting harbor seal DNA from fecal samples to determine sex of seal for insights into sex-specific foraging ecology.", "Title:", "1998-2006"
+) %>% 
+  detailed_entries(what = Title, with = With, when = When, where = Where, why = Desc)
+```
+
+
+## Professional Experience
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Wildlife Biologist","2006-Present", "Marine Mammal Laboratory, Alaska Fisheries Science Center, NOAA Fisheries", "Seattle, WA, USA"
+) %>% 
+  detailed_entries(
+    Position,
+    Year, 
+    Institution,
+    Where
+  )
+```
+
+## Peer Reviewed Publications
+
+```{r}
+library(dplyr)
+
+bibliography_entries("peer_pubs.bib") 
+
+```
+

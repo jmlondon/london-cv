@@ -1,0 +1,2115 @@
+{
+  "collections": {},
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "localeDateOrder": "mdy",
+    "options": {
+      "exportFileData": false,
+      "exportNotes": false,
+      "keepUpdated": true
+    },
+    "preferences": {
+      "DOIandURL": "both",
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 5,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "autoPinDelay": 0,
+      "automaticTags": true,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cacheFlushInterval": 5,
+      "caching": true,
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "[auth:lower][year]",
+      "citekeySearch": true,
+      "csquotes": "",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportTitleCase": true,
+      "extraMergeCSL": true,
+      "extraMergeCitekeys": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "change",
+      "keyScope": "library",
+      "kuroshiro": false,
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "newTranslatorsAskRestart": true,
+      "parseParticles": true,
+      "patchDates": "",
+      "platform": "mac",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "citekeys",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": true,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "scrubDatabase": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "testing": false,
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 20000,
+      "warnTitleCased": false,
+      "workers": 1
+    }
+  },
+  "items": [
+    {
+      "DOI": "10.1111/2041-210X.12311",
+      "abstractNote": "1. The Argos satellite telemetry system is popular for studying the movement and space use of marine animals. The life histories of marine mammals, in particular, result in a relatively large proportion of inaccurate locations, thus making analysis methods that do not account  for location measurement error inappropriate for these data. Using a new Kalman filtering algorithm, Argos now provides locations and estimated error ellipses associated with each satellite fix, but to our knowledge, the location error ellipse has yet to be incorporated into analyses of animal movement or space use.\n2. We first present an observation model utilizing the Argos error ellipse, and then demonstrate how this observation model can be combined with a simple three-dimensional movement model in a state-space formulation to infer activity budgets and movement characteristics from location and dive data of two species of seal, the arctic bearded seal (Erignathus barbatus) and the Hawaiian monk seal (Monachus schauinslandi). These example datasets are of variable quality and represent species that differ in both space use and latitudinal range relative to the polar orbits of Argos satellites. We also compare the results from our error ellipse model with those from an approximate (isotropic) error circle model.\n3. We found the error circle to be a crude approximation of the actual anisotropic error ellipse for the higher-quality bearded seal data, but inferences from the lower-quality Hawaiian monk seal data were more robust to the choice of observation model. In both examples, we found the theoretical bivariate normal distribution corresponding to the error ellipse often failed to adequately explain the most extreme location outliers.\n4. In practice, we suspect the inferential consequences of using traditional isotropic location quality classes or other crude approximations in lieu of the error ellipse will be largely case dependent. We support the Argos recommendation that practitioners wishing to more properly account for location measurement error utilize the error ellipse in analyses. However, the continued presence of outliers using the new algorithm suggests practitioners should consider using a fat-tailed distribution derived from the error ellipse (e.g., bivariate t-distribution) or filtering extreme outliers during data preprocessing.",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T04:31:27Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "VVJ8ITZP",
+          "linkMode": "linked_url",
+          "parentItem": "HC8JV8UH",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/SP42GPTA"
+            ]
+          },
+          "select": "zotero://select/library/items/VVJ8ITZP",
+          "tags": [],
+          "title": "full",
+          "uri": "http://zotero.org/users/5611882/items/VVJ8ITZP",
+          "url": "http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12311/full",
+          "version": 192
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/VNTWS6PU/McClintock_2015_Modelling.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "McClintock_2015_Modelling",
+          "uri": "http://zotero.org/users/5611882/items/VNTWS6PU"
+        }
+      ],
+      "citationKey": "mcclintock2015",
+      "citekey": "mcclintock2015",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brett T.",
+          "lastName": "McClintock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael F.",
+          "lastName": "Cameron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "2015",
+      "dateAdded": "2022-01-20T01:39:47Z",
+      "dateModified": "2022-01-20T02:09:14Z",
+      "itemID": 87582,
+      "itemKey": "HC8JV8UH",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Methods Ecol Evol",
+      "key": "HC8JV8UH",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "5HHTCJF9",
+          "note": "<p>online Mar 2015<br/>FY2015</p>",
+          "parentItem": "HC8JV8UH",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/JN2UFTQQ"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/5HHTCJF9",
+          "version": 192
+        }
+      ],
+      "pages": "266-277",
+      "publicationTitle": "Methods in Ecology and Evolution",
+      "relations": [],
+      "select": "zotero://select/library/items/HC8JV8UH",
+      "tags": [
+        {
+          "tag": "animal location data"
+        },
+        {
+          "tag": "Erignathus barbatus"
+        },
+        {
+          "tag": "hierarchical model"
+        },
+        {
+          "tag": "measurement error"
+        },
+        {
+          "tag": "Monachus schauinslandi"
+        },
+        {
+          "tag": "movement model"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "state-space model"
+        },
+        {
+          "tag": "switching behavior"
+        }
+      ],
+      "title": "Modelling animal movement using the Argos satellite telemetry location error ellipse",
+      "uri": "http://zotero.org/users/5611882/items/HC8JV8UH",
+      "version": 356,
+      "volume": "6"
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/PTP9GSQZ/0759_Johnson_2008.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "0759_Johnson_2008",
+          "uri": "http://zotero.org/users/5611882/items/PTP9GSQZ"
+        }
+      ],
+      "citationKey": "johnson2008",
+      "citekey": "johnson2008",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Devin S.",
+          "lastName": "Johnson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mary-Anne",
+          "lastName": "Lea"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John W.",
+          "lastName": "Durban"
+        }
+      ],
+      "date": "2008",
+      "dateAdded": "2022-01-20T01:39:49Z",
+      "dateModified": "2022-01-20T01:39:49Z",
+      "extra": "tex.ids= devins.johnson2008",
+      "itemID": 87594,
+      "itemKey": "4FJR8Q8E",
+      "itemType": "journalArticle",
+      "key": "4FJR8Q8E",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "note",
+          "key": "B2RSPRB2",
+          "note": "The following values have no corresponding Zotero field:<br/>accession-num: doi:10.1890/07-1032.1",
+          "parentItem": "4FJR8Q8E",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/6IE547ER"
+            ]
+          },
+          "tags": [
+            {
+              "tag": "_EndnoteXML import"
+            }
+          ],
+          "uri": "http://zotero.org/users/5611882/items/B2RSPRB2",
+          "version": 209
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "note",
+          "key": "IJT2P62M",
+          "note": "The following values have no corresponding Zotero field:<br/>label: 759",
+          "parentItem": "4FJR8Q8E",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/TDT2RE94"
+            ]
+          },
+          "tags": [
+            {
+              "tag": "_EndnoteXML import"
+            }
+          ],
+          "uri": "http://zotero.org/users/5611882/items/IJT2P62M",
+          "version": 209
+        }
+      ],
+      "pages": "1208 - 1215",
+      "publicationTitle": "Ecology",
+      "relations": [],
+      "select": "zotero://select/library/items/4FJR8Q8E",
+      "tags": [
+        {
+          "tag": "Argos location"
+        },
+        {
+          "tag": "Callorhinus ursinus"
+        },
+        {
+          "tag": "correlated random walk"
+        },
+        {
+          "tag": "harbor seal"
+        },
+        {
+          "tag": "integrated"
+        },
+        {
+          "tag": "kalman filter"
+        },
+        {
+          "tag": "marine mammals"
+        },
+        {
+          "tag": "northern fur seal"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "Phoca vitulina"
+        },
+        {
+          "tag": "satellite telemetry"
+        },
+        {
+          "tag": "state–space model"
+        },
+        {
+          "tag": "stochastic process"
+        }
+      ],
+      "title": "Continuous-time correlated random walk model for animal telemetry data",
+      "uri": "http://zotero.org/users/5611882/items/4FJR8Q8E",
+      "version": 356,
+      "volume": "89"
+    },
+    {
+      "DOI": "10.1007/s00180-009-0160-1",
+      "abstractNote": "This paper considers ways to increase computational speed in generalized\nlinear mixed pseudo-models for the case of many repeated measurements on subjects.\nWe obtain linearly increasing computing time with number of observations, as opposed\nto exponentially increasing computing time using numerical optimization. We also find\na surprising result; that incomplete optimization for covariance parameters within the\nlarger parameter estimation algorithm actually decreases time to convergence. After\ncomparing various computing algorithms and choosing the best one, we fit a generalized\nlinear mixed model to a binary time series data set with over 100 fixed effects, 50\nrandom effects, and approximately 1.5 × 10<sup>5</sup> observations.",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T05:44:35Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "key": "SKGNWQZ6",
+          "linkMode": "linked_url",
+          "parentItem": "4GKFJCI2",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/KDBS2DBD"
+            ]
+          },
+          "select": "zotero://select/library/items/SKGNWQZ6",
+          "tags": [],
+          "title": "s00180-009-0160-1",
+          "uri": "http://zotero.org/users/5611882/items/SKGNWQZ6",
+          "url": "http://dx.doi.org/10.1007/s00180-009-0160-1",
+          "version": 210
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/CHWF2DDQ/VerHoef et al 2010.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "VerHoef et al 2010",
+          "uri": "http://zotero.org/users/5611882/items/CHWF2DDQ"
+        }
+      ],
+      "citationKey": "verhoef2010",
+      "citekey": "verhoef2010",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jay M.",
+          "lastName": "Ver Hoef"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "2010",
+      "dateAdded": "2022-01-20T01:39:49Z",
+      "dateModified": "2022-01-20T01:39:49Z",
+      "issue": "1",
+      "itemID": 87595,
+      "itemKey": "4GKFJCI2",
+      "itemType": "journalArticle",
+      "key": "4GKFJCI2",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "39-55",
+      "publicationTitle": "Computational Statistics",
+      "relations": [],
+      "select": "zotero://select/library/items/4GKFJCI2",
+      "tags": [
+        {
+          "tag": "autocorrelation"
+        },
+        {
+          "tag": "exponential"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "pseudo-likelihood"
+        },
+        {
+          "tag": "Sherman-Morrison-Woodbury"
+        },
+        {
+          "tag": "sparse matrix"
+        }
+      ],
+      "title": "Fast computing of some generalized linear mixed pseudo-models with temporal autocorrelation",
+      "uri": "http://zotero.org/users/5611882/items/4GKFJCI2",
+      "version": 356,
+      "volume": "25"
+    },
+    {
+      "abstractNote": "1. Population ecologists often use telemetry to estimate the probability that an animal is available for sampling\n(availability probability). Such estimates are paramount for generating reliable estimates of animal abundance\nand are sometimes of biological interest in their own right (e.g. for characterizing pinniped haul-out behaviour or\nlandbird singing frequency).\n2. We consider the estimation of availability probability from telemetry data when there are missing records.\nWhen records are missing-completely-at-random (i.e. not influenced by whether an animal is available for sampling\nor other covariates), approaches that censor missing records result in unbiased estimates of availability\nprobability. However, censoring such records can result in bias when data are not missing-completely-atrandom.\n3. We present a novel Bayesian temporal availability model that can be used to explicitly account for the\nprocess by which missing data arise. Our approach couples an underlying model for the partially observed\navailability process together with an observation model that allows state-dependent probabilities of missingness.\nThis approach provides relatively unbiased estimates of availability probability even in the face of violations\nof the missing-at-random assumption. A new R package, TempOcc, is introduced to automate\nestimation.\n4. We demonstrate the utility of our approach by analysing both simulated data and hourly satellite telemetry\nrecords for 157 ice-associated seals in the Bering Sea, forwhich 27%of records weremissing. In this case, we were\ninterested in generating unbiased estimates of haul-out probabilities. Such probabilities are necessary when\nestimating abundance fromaerial survey counts and assessing possible changes in seal phenology.\n5. Our analysis indicates that the missing-at-random assumption is indeed violated in telemetry studies of\nphocid seals in the Bering Sea. However, estimates of availability probability do not depend critically on this\nassumption.\n6. We recommend that ecologists routinely consider the implications of violating the missing-at-random\nassumption when estimating availability probabilities. Where possible, the modelling framework articulated in\nthis study can be used to diagnose and correct for violations of the missing-at-randomassumption.",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/V4Q55R2S/Conn_2012_Accounting.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Conn_2012_Accounting",
+          "uri": "http://zotero.org/users/5611882/items/V4Q55R2S"
+        }
+      ],
+      "citationKey": "conn2012a",
+      "citekey": "conn2012a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Paul B.",
+          "lastName": "Conn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devin S.",
+          "lastName": "Johnson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "2012",
+      "dateAdded": "2022-01-20T01:39:48Z",
+      "dateModified": "2022-01-20T01:39:48Z",
+      "issue": "3",
+      "itemID": 87603,
+      "itemKey": "9CREWZ33",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Methods Ecol Evol",
+      "key": "9CREWZ33",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1039-1046",
+      "publicationTitle": "Methods in Ecology and Evolution",
+      "relations": [],
+      "select": "zotero://select/library/items/9CREWZ33",
+      "tags": [
+        {
+          "tag": "availability"
+        },
+        {
+          "tag": "missing data"
+        },
+        {
+          "tag": "missing-at-random"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "population surveys"
+        },
+        {
+          "tag": "satellite telemetry"
+        },
+        {
+          "tag": "temporal autocorrelation"
+        }
+      ],
+      "title": "Accounting for missing data when assessing availability in animal population surveys: an application to ice-associated seals in the Bering Sea",
+      "uri": "http://zotero.org/users/5611882/items/9CREWZ33",
+      "version": 356
+    },
+    {
+      "DOI": "10.1371/journal.pone.0038180",
+      "abstractNote": "The goal of this study was to model haul-out behavior of harbor seals (<i>Phoca vitulina</i>) in the Hood Canal region of Washington State with respect to changes in physiological, environmental, and temporal covariates. Previous research has provided a solid understanding of seal haul-out behavior. Here, we expand on that work using a generalized linear mixed model (GLMM) with temporal autocorrelation and a large dataset. Our dataset included behavioral haul-out records from archival and VHF radio tag deployments on 25 individual seals representing 61,430 seal hours. A novel application for increased computational efficiency allowed us to examine this large dataset with a GLMM that appropriately accounts for temporal autocorellation. We found significant relationships with the covariates hour of day, day of year, minutes from high tide and year. Additionally, there was a significant effect of the interaction term hour of day : day of year. This interaction term demonstrated that seals are more likely to haul out during nighttime hours in August and September, but then switch to predominantly daylight haul-out patterns in October and November. We attribute this change in behavior to an effect of human disturbance levels. This study also examined a unique ecological event to determine the role of increased killer whale (<italic>Orcinus orca</italic>) predation on haul-out behavior. In 2003 and 2005 these harbor seals were exposed to unprecedented levels of killer whale predation and results show an overall increase in haul-out probability after exposure to killer whales. The outcome of this study will be integral to understanding any changes in population abundance as a result of increased killer whale predation.",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T04:23:16Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "key": "H4RZ6CXB",
+          "linkMode": "linked_url",
+          "parentItem": "UI7AF6TE",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/LKHD5B6C"
+            ]
+          },
+          "select": "zotero://select/library/items/H4RZ6CXB",
+          "tags": [],
+          "title": "10.1371%2Fjournal.pone",
+          "uri": "http://zotero.org/users/5611882/items/H4RZ6CXB",
+          "url": "http://dx.doi.org/10.1371%2Fjournal.pone.0038180",
+          "version": 203
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/9DQCAXVS/London_2012_Haul.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "London_2012_Haul",
+          "uri": "http://zotero.org/users/5611882/items/9DQCAXVS"
+        }
+      ],
+      "citationKey": "london2012",
+      "citekey": "london2012",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jay M.",
+          "lastName": "Ver Hoef"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Steven J.",
+          "lastName": "Jeffries"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Monique M.",
+          "lastName": "Lance"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "6/18/2012",
+      "dateAdded": "2022-01-20T01:39:48Z",
+      "dateModified": "2022-01-20T01:39:48Z",
+      "issue": "6",
+      "itemID": 87604,
+      "itemKey": "UI7AF6TE",
+      "itemType": "journalArticle",
+      "key": "UI7AF6TE",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "note",
+          "key": "Q4WUXXNM",
+          "note": "The following values have no corresponding Zotero field:<br/>translated-title: Published online June 18, 2012<br/>publisher: Public Library of Science",
+          "parentItem": "UI7AF6TE",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/JNNKVJ6T"
+            ]
+          },
+          "tags": [
+            {
+              "tag": "_EndnoteXML import"
+            }
+          ],
+          "uri": "http://zotero.org/users/5611882/items/Q4WUXXNM",
+          "version": 203
+        }
+      ],
+      "pages": "e38180",
+      "publicationTitle": "PLoS ONE",
+      "relations": [],
+      "select": "zotero://select/library/items/UI7AF6TE",
+      "tags": [
+        {
+          "tag": "generalized linear mixed model"
+        },
+        {
+          "tag": "GLMM"
+        },
+        {
+          "tag": "harbor seal"
+        },
+        {
+          "tag": "haul-out behavior"
+        },
+        {
+          "tag": "Hood Canal"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "Phoca vitulana"
+        }
+      ],
+      "title": "Haul-out behavior of harbor seals (<i>Phoca vitulina</i>) in Hood Canal, Washington",
+      "uri": "http://zotero.org/users/5611882/items/UI7AF6TE",
+      "version": 356,
+      "volume": "7"
+    },
+    {
+      "DOI": "10.1111/2041-210X.12127",
+      "ISSN": "2041210X",
+      "accessDate": "2019-04-11T19:01:20Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/VC9A7U5U/Conn et al. - 2014 - Estimating multispecies abundance using automated .pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Conn et al. - 2014 - Estimating multispecies abundance using automated .pdf",
+          "uri": "http://zotero.org/users/5611882/items/VC9A7U5U"
+        }
+      ],
+      "citationKey": "conn2014a",
+      "citekey": "conn2014a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Paul B.",
+          "lastName": "Conn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jay M.",
+          "lastName": "Ver Hoef"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brett T.",
+          "lastName": "McClintock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erin E.",
+          "lastName": "Moreland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael F.",
+          "lastName": "Cameron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "12/2014",
+      "dateAdded": "2022-01-20T01:39:48Z",
+      "dateModified": "2022-01-20T01:39:48Z",
+      "issue": "12",
+      "itemID": 87605,
+      "itemKey": "XF7SCSRP",
+      "itemType": "journalArticle",
+      "key": "XF7SCSRP",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1280-1293",
+      "publicationTitle": "Methods in Ecology and Evolution",
+      "relations": [],
+      "select": "zotero://select/library/items/XF7SCSRP",
+      "shortTitle": "Estimating multispecies abundance using automated detection systems",
+      "tags": [],
+      "title": "Estimating multispecies abundance using automated detection systems: ice-associated seals in the Bering Sea",
+      "uri": "http://zotero.org/users/5611882/items/XF7SCSRP",
+      "url": "http://doi.wiley.com/10.1111/2041-210X.12127",
+      "version": 356,
+      "volume": "5"
+    },
+    {
+      "abstractNote": "Technological advances have facilitated collection of vast quantities of photographic data from aerial surveys of marine mammals. However, when it is difficult to distinguish species from a distance, reliable identification from aerial images can often be challenging. This is the case for ice-associated seals, species for which global climate change has motivated intensive monitoring efforts in recent years. We assess species and age class identification from aerial images of four ice seal species (bearded seals, Erignathus barbatus; ribbon seals, Histriophoca fasciata; ringed seals, Pusa hispida; spotted seals, Phoca largha) in the Bering Sea. We also investigate the specific phenomenological and behavioral traits commonly associated with species identification and observer confidence. We generally found species and age class misidentification occurred at relatively low levels, but only 83% of spotted seals tended to be correctly identified (with 11% 34 mistaken as ribbon seals). We also found certain traits were strong predictors for observed species, age class, or observer confidence. Our findings add to the growing body of evidence that species misidentification is pervasive in passive sampling of animal populations. Even low levels of misidentification have been demonstrated to induce substantial biases in estimators of species distribution and abundance, and it is important that statistical models account for such errors.",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/GWA27FDZ/McClintock_2015_Quantitative.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "McClintock_2015_Quantitative",
+          "uri": "http://zotero.org/users/5611882/items/GWA27FDZ"
+        },
+        {
+          "accessDate": "2020-05-23T04:31:31Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "UB5FCTP8",
+          "linkMode": "linked_url",
+          "parentItem": "JXNDUAXJ",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/E75YZL26"
+            ]
+          },
+          "select": "zotero://select/library/items/UB5FCTP8",
+          "tags": [],
+          "title": "pdf",
+          "uri": "http://zotero.org/users/5611882/items/UB5FCTP8",
+          "url": "http://onlinelibrary.wiley.com/doi/10.1111/mms.12206/pdf",
+          "version": 196
+        }
+      ],
+      "citationKey": "mcclintock2015b",
+      "citekey": "mcclintock2015b",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brett T.",
+          "lastName": "McClintock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erin E.",
+          "lastName": "Moreland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joshua M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shawn P.",
+          "lastName": "Dahle"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gavin M.",
+          "lastName": "Brady"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erin L.",
+          "lastName": "Richmond"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kymberly M.",
+          "lastName": "Yano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "2015",
+      "dateAdded": "2022-01-20T01:39:48Z",
+      "dateModified": "2022-01-20T01:39:48Z",
+      "issue": "3",
+      "itemID": 87606,
+      "itemKey": "JXNDUAXJ",
+      "itemType": "journalArticle",
+      "key": "JXNDUAXJ",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "FVEPW936",
+          "note": "<p>Jul 2015<br/>FY2015</p>",
+          "parentItem": "JXNDUAXJ",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/8DR223PK"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/FVEPW936",
+          "version": 196
+        }
+      ],
+      "pages": "1057-1076",
+      "publicationTitle": "Marine Mammal Science",
+      "relations": [],
+      "select": "zotero://select/library/items/JXNDUAXJ",
+      "tags": [
+        {
+          "tag": "abundance"
+        },
+        {
+          "tag": "aerial survey"
+        },
+        {
+          "tag": "ice-associated seals"
+        },
+        {
+          "tag": "latent state model"
+        },
+        {
+          "tag": "partial state observation"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "Phocidae"
+        },
+        {
+          "tag": "photo identification"
+        },
+        {
+          "tag": "satellite imagery"
+        },
+        {
+          "tag": "species misclassification"
+        },
+        {
+          "tag": "species misidentification"
+        },
+        {
+          "tag": "species occurrence"
+        }
+      ],
+      "title": "Quantitative assessment of species identification in aerial transect surveys for ice-associated seals",
+      "uri": "http://zotero.org/users/5611882/items/JXNDUAXJ",
+      "version": 356,
+      "volume": "21"
+    },
+    {
+      "abstractNote": "The analysis of animal movement and resource use has become a standard tool in the\nstudy of animal ecology. Telemetry devices have become quite sophisticated in terms of\noverall size and data collecting capacity. Statistical methods to analyze movement have\nresponded, becoming ever more complex, often relying on state-space modeling. Estimation\nof movement metrics such as utilization distributions have not followed suit,\nrelying primarily on kernel density estimation. Here we consider a method for making\ninference about space use that is free of all of the major problems associated with\nkernel density estimation of utilization distributions such as autocorrelation, irregular\ntime gaps, and error in observed locations. Our proposed method is based on a data\naugmentation approach that defines use as a summary of the complete path of the animal\nwhich is only partially observed. We use a sample from the posterior distribution\nof the complete path to construct a posterior sample for the metric of interest. Three\nbasic importance sampling based methods for sampling from the posterior distribution\nof the path are proposed and compared. We demonstrate the augmentation approach by\nestimating a spatial map of diving intensity for female northern fur seals in the Pribilof\nIslands, Alaska.",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/RI97XVF8/Johnson_2011_Bayesian.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Johnson_2011_Bayesian",
+          "uri": "http://zotero.org/users/5611882/items/RI97XVF8"
+        }
+      ],
+      "citationKey": "johnson2011a",
+      "citekey": "johnson2011a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Devin S.",
+          "lastName": "Johnson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carey E.",
+          "lastName": "Kuhn"
+        }
+      ],
+      "date": "2011",
+      "dateAdded": "2022-01-20T01:39:48Z",
+      "dateModified": "2022-01-20T01:39:48Z",
+      "issue": "1",
+      "itemID": 87607,
+      "itemKey": "CJHRAVAR",
+      "itemType": "journalArticle",
+      "key": "CJHRAVAR",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "357-370",
+      "publicationTitle": "Journal of Agricultural, Biological, and Environmental Statistics",
+      "relations": [],
+      "select": "zotero://select/library/items/CJHRAVAR",
+      "tags": [
+        {
+          "tag": "Animal movement"
+        },
+        {
+          "tag": "Correlated random walk"
+        },
+        {
+          "tag": "Movement metric"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "Posterior distribution"
+        },
+        {
+          "tag": "State-space model"
+        },
+        {
+          "tag": "Utilization distribution"
+        }
+      ],
+      "title": "Bayesian inference for animal space use and other movement metrics",
+      "uri": "http://zotero.org/users/5611882/items/CJHRAVAR",
+      "version": 356,
+      "volume": "16"
+    },
+    {
+      "DOI": "http://dx.doi.org/10.1016/j.stamet.2013.03.001",
+      "ISSN": "1572-3127",
+      "abstractNote": "We conducted population surveys of spotted seals, ribbon seals and bearded seals\nin an area of 81,600 km2 in the Bering Sea between 13 April and 26 May 2007. During\nthat period, the sea ice conditions and spatial distribution of seals changed dramatically.\nWe surveyed 2,748 km2 with line transect methods from a helicopter deployed from the US\nCoast Guard icebreaker Healy. We accounted for incomplete availability of seals with a generalized\nlinear mixed model for seal haul-out probability sampled by satellite telemetry. We\naccounted for incomplete detection through standard distance-sampling methods along with\na double-observer model. The availability and detection models were combined in a Horvitz-\nThompson-like sampling model for local abundance in space and time. To accommodate the\nshifting ice and seal movements, we then developed a hierarchical spatially-autocorrelated\nregression model using remotely sensed sea ice concentration data to predict abundance at\neach survey date. While abundance estimation was very imprecise for each date, we were\nable to combine them to obtain good estimates of overall population abundance even though\nthe population was spatially dynamic. The proposed hierarchical model combined submodels\nand accounted for their sources of uncertainty. Spotted seals were most abundant within\nthe study area (141,479, 95% CI 92,769-321,882), followed by bearded seals (63,188, 95% CI\n38,370 - 138,597) and ribbon seals (57,855, 95% CI 25,504 - 231,600).",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T05:44:28Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "86GW6BH5",
+          "linkMode": "linked_url",
+          "parentItem": "2HBAGFHV",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/B86SJ5NQ"
+            ]
+          },
+          "select": "zotero://select/library/items/86GW6BH5",
+          "tags": [],
+          "title": "S1572312713000282",
+          "uri": "http://zotero.org/users/5611882/items/86GW6BH5",
+          "url": "http://www.sciencedirect.com/science/article/pii/S1572312713000282",
+          "version": 197
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/ND6GR3CT/VerHoef_2014_Spatial.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "VerHoef_2014_Spatial",
+          "uri": "http://zotero.org/users/5611882/items/ND6GR3CT"
+        }
+      ],
+      "citationKey": "verhoef2014",
+      "citekey": "verhoef2014",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jay M.",
+          "lastName": "Ver Hoef"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael F.",
+          "lastName": "Cameron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erin E.",
+          "lastName": "Moreland"
+        }
+      ],
+      "date": "2014",
+      "dateAdded": "2022-01-20T01:39:48Z",
+      "dateModified": "2022-01-20T01:39:48Z",
+      "extra": "tex.ids= verhoef2014",
+      "itemID": 87609,
+      "itemKey": "2HBAGFHV",
+      "itemType": "journalArticle",
+      "key": "2HBAGFHV",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:55Z",
+          "dateModified": "2022-01-20T01:39:55Z",
+          "itemType": "note",
+          "key": "6XFNTETW",
+          "note": "The following values have no corresponding Zotero field:<br/>translated-title: Published online April 8, 2013",
+          "parentItem": "2HBAGFHV",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/USR3DBWR"
+            ]
+          },
+          "tags": [
+            {
+              "tag": "_EndnoteXML import"
+            }
+          ],
+          "uri": "http://zotero.org/users/5611882/items/6XFNTETW",
+          "version": 197
+        }
+      ],
+      "pages": "46-66",
+      "publicationTitle": "Statistical Methodology",
+      "relations": [],
+      "select": "zotero://select/library/items/2HBAGFHV",
+      "tags": [
+        {
+          "tag": "Conditional autoregressive"
+        },
+        {
+          "tag": "detection"
+        },
+        {
+          "tag": "line transect"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "sampling"
+        },
+        {
+          "tag": "spatial linear model"
+        }
+      ],
+      "title": "A spatial hierarchical model for abundance of three ice-associated seal species in the eastern Bering Sea",
+      "uri": "http://zotero.org/users/5611882/items/2HBAGFHV",
+      "version": 356,
+      "volume": "17"
+    },
+    {
+      "DOI": "10.1890/14-0959.1",
+      "ISSN": "0012-9615",
+      "abstractNote": "Ecologists often fit models to survey data to estimate and explain variation in animal abundance. Such models typically require that animal density remains constant across the landscape where sampling is being conducted, a potentially problematic assumption for animals inhabiting dynamic landscapes or otherwise exhibiting considerable spatiotemporal variation in density. We review several concepts from the burgeoning literature on spatiotemporal statistical models, including the nature of the temporal structure (i.e., descriptive or dynamical) and strategies for dimension reduction to promote computational tractability. We also review several features as they specifically relate to abundance estimation, including boundary conditions, population closure, choice of link function, and extrapolation of predicted relationships to unsampled areas. We then compare a suite of novel and existing spatiotemporal hierarchical models for animal count data that permit animal density to vary over space and time, including formulations motivated by resource selection and allowing for closed populations. We gauge the relative performance (bias, precision, computational demands) of alternative spatiotemporal models when confronted with simulated and real data sets from dynamic animal populations. For the latter, we analyze spotted seal (Phoca largha) counts from an aerial survey of the Bering Sea where the quantity and quality of suitable habitat (sea ice) changed dramatically while surveys were being conducted. Simulation analyses suggested that multiple types of spatiotemporal models provide reasonable inference (low positive bias, high precision) about animal abundance, but have potential for overestimating precision. Analysis of spotted seal data indicated that several model formulations, including those based on a log-Gaussian Cox process, had a tendency to overestimate abundance. By contrast, a model that included a population closure assumption and a scale prior on total abundance produced estimates that largely conformed to our a priori expectation. Although care must be taken to tailor models to match the study population and survey data available, we argue that hierarchical spatiotemporal statistical models represent a powerful way forward for estimating abundance and explaining variation in the distribution of dynamical populations.",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T01:55:20Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "7BS7S23G",
+          "linkMode": "linked_url",
+          "parentItem": "3AGZA852",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/IJRZHLFG"
+            ]
+          },
+          "select": "zotero://select/library/items/7BS7S23G",
+          "tags": [],
+          "title": "14-0959",
+          "uri": "http://zotero.org/users/5611882/items/7BS7S23G",
+          "url": "http://dx.doi.org/10.1890/14-0959.1",
+          "version": 193
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/DPC7NTW3/ConnEtAl_2015_UsingSpatio.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "ConnEtAl_2015_UsingSpatio",
+          "uri": "http://zotero.org/users/5611882/items/DPC7NTW3"
+        }
+      ],
+      "citationKey": "conn2015a",
+      "citekey": "conn2015a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Paul B.",
+          "lastName": "Conn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devin S.",
+          "lastName": "Johnson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jay M.",
+          "lastName": "Ver Hoef"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mevin B.",
+          "lastName": "Hooten"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joshua M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "2015/05/01",
+      "dateAdded": "2022-01-20T01:39:47Z",
+      "dateModified": "2022-01-20T01:39:47Z",
+      "issue": "2",
+      "itemID": 87611,
+      "itemKey": "3AGZA852",
+      "itemType": "journalArticle",
+      "key": "3AGZA852",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "CFBM75FK",
+          "note": "The following values have no corresponding Zotero field:<br/>publisher: Ecological Society of America",
+          "parentItem": "3AGZA852",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/4FEEVHHW"
+            ]
+          },
+          "tags": [
+            {
+              "tag": "_EndnoteXML import"
+            }
+          ],
+          "uri": "http://zotero.org/users/5611882/items/CFBM75FK",
+          "version": 193
+        }
+      ],
+      "pages": "235-252",
+      "publicationTitle": "Ecological Monographs",
+      "relations": [],
+      "select": "zotero://select/library/items/3AGZA852",
+      "tags": [
+        {
+          "tag": "PEP"
+        }
+      ],
+      "title": "Using spatiotemporal statistical models to estimate animal abundance and infer ecological dynamics from survey counts",
+      "uri": "http://zotero.org/users/5611882/items/3AGZA852",
+      "version": 356,
+      "volume": "85"
+    },
+    {
+      "DOI": "10.1214/16-AOAS970",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T05:14:38Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "VWPDE9KA",
+          "linkMode": "linked_url",
+          "parentItem": "UR4C83HZ",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/X7JAHACQ"
+            ]
+          },
+          "select": "zotero://select/library/items/VWPDE9KA",
+          "tags": [],
+          "title": "1483606856",
+          "uri": "http://zotero.org/users/5611882/items/VWPDE9KA",
+          "url": "https://projecteuclid.org/euclid.aoas/1483606856",
+          "version": 187
+        }
+      ],
+      "citationKey": "scharf2016",
+      "citekey": "scharf2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Henry R.",
+          "lastName": "Scharf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mevin B.",
+          "lastName": "Hooten"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bailey K.",
+          "lastName": "Fosdick"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devin S.",
+          "lastName": "Johnson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John W.",
+          "lastName": "Durban"
+        }
+      ],
+      "date": "2016",
+      "dateAdded": "2022-01-20T01:39:47Z",
+      "dateModified": "2022-01-20T01:39:47Z",
+      "issue": "4",
+      "itemID": 87612,
+      "itemKey": "UR4C83HZ",
+      "itemType": "journalArticle",
+      "key": "UR4C83HZ",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "4SM5WEDH",
+          "note": "<p>First available in Project Euclid: 5 January 2017<br/>FY2017</p>",
+          "parentItem": "UR4C83HZ",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/D39KDK9U"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/4SM5WEDH",
+          "version": 187
+        }
+      ],
+      "pages": "2182-2202",
+      "publicationTitle": "The Annals of Applied Statistics",
+      "relations": [],
+      "select": "zotero://select/library/items/UR4C83HZ",
+      "tags": [
+        {
+          "tag": "PEP"
+        }
+      ],
+      "title": "Dynamic social networks based on movement",
+      "uri": "http://zotero.org/users/5611882/items/UR4C83HZ",
+      "version": 357,
+      "volume": "10"
+    },
+    {
+      "DOI": "10.1002/ecs2.1751",
+      "ISSN": "2150-8925",
+      "abstractNote": "Inferences about animal behavior from movement models typically rely solely on location data, but auxiliary biotelemetry and environmental data are powerful and readily available resources for incorporating much more behavioral realism. Integrating multiple data streams can not only reveal hidden behaviors and ecological relationships that would otherwise be difficult or impossible to infer from location data alone, but also facilitate more realistic path reconstruction that respects important ecological features while bridging the information gaps that commonly arise due to measurement error or missing data. Using the bearded seal (<i>Erignathus barbatus</i>), a benthic predator associated with Arctic sea ice, we demonstrate how integrating location, dive activity, land cover, bathymetry, and sea ice data in a unified modeling framework allowed us to identify novel behavior states, such as hauling out on seasonal sea ice and those associated with competing foraging strategies (i.e., benthic vs. mid-water prey). By utilizing multiple data streams, ecologists can move beyond conventional two-state models (“foraging” and “transit”) and address more interesting hypotheses about activity budgets, resource selection, and many other areas of movement and behavioral ecology. The generality of our approach provides broad applicability to marine and terrestrial species, as well as many types of biotelemetry and environmental data.",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T04:31:28Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "VAPN5WTJ",
+          "linkMode": "linked_url",
+          "parentItem": "UI84RIWJ",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/68UXT3LI"
+            ]
+          },
+          "select": "zotero://select/library/items/VAPN5WTJ",
+          "tags": [],
+          "title": "ecs2",
+          "uri": "http://zotero.org/users/5611882/items/VAPN5WTJ",
+          "url": "http://dx.doi.org/10.1002/ecs2.1751",
+          "version": 189
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/G3UV4NQN/McClintock_2017_Bridging.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "McClintock_2017_Bridging",
+          "uri": "http://zotero.org/users/5611882/items/G3UV4NQN"
+        }
+      ],
+      "citationKey": "mcclintock2017",
+      "citekey": "mcclintock2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brett T.",
+          "lastName": "McClintock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joshua M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael F.",
+          "lastName": "Cameron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-01-20T01:39:47Z",
+      "dateModified": "2022-01-20T01:39:47Z",
+      "issue": "3",
+      "itemID": 87613,
+      "itemKey": "UI84RIWJ",
+      "itemType": "journalArticle",
+      "key": "UI84RIWJ",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "IEX8FMCI",
+          "note": "<p>FY2017<br/>CY2017</p>",
+          "parentItem": "UI84RIWJ",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/VZ8WY6GE"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/IEX8FMCI",
+          "version": 189
+        }
+      ],
+      "pages": "e01751",
+      "publicationTitle": "Ecosphere",
+      "relations": [],
+      "select": "zotero://select/library/items/UI84RIWJ",
+      "tags": [
+        {
+          "tag": "animal location data"
+        },
+        {
+          "tag": "bearded seal"
+        },
+        {
+          "tag": "hidden Markov"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "switching behavior"
+        },
+        {
+          "tag": "telemetry"
+        }
+      ],
+      "title": "Bridging the gaps in animal movement: hidden behaviors and ecological relationships revealed by integrated data streams",
+      "uri": "http://zotero.org/users/5611882/items/UI84RIWJ",
+      "version": 357,
+      "volume": "8"
+    },
+    {
+      "DOI": "10.1111/risa.12988",
+      "ISSN": "0272-4332",
+      "abstractNote": "Harbor seals in Iliamna Lake, Alaska, are a small, isolated population, and one of only two freshwater populations of harbor seals in the world, yet little is known about their abundance or risk for extinction. Bayesian hierarchical models were used to estimate abundance and trend of this population. Observational models were developed from aerial survey and harvest data, and they included effects for time of year and time of day on survey counts. Underlying models of abundance and trend were based on a Leslie matrix model that used prior information on vital rates from the literature. We developed three scenarios for variability in the priors and used them as part of a sensitivity analysis. The models were fitted using Markov chain Monte Carlo methods. The population production rate implied by the vital rate estimates was about 5% per year, very similar to the average annual harvest rate. After a period of growth in the 1980s, the population appears to be relatively stable at around 400 individuals. A population viability analysis assessing the risk of quasi-extinction, defined as any reduction to 50 animals or below in the next 100 years, ranged from 1% to 3%, depending on the prior scenario. Although this is moderately low risk, it does not include genetic or catastrophic environmental events, which may have occurred to the population in the past, so our results should be applied cautiously.",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/TWZDCFI2/Boveng_2018_ABayesian.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Boveng_2018_ABayesian",
+          "uri": "http://zotero.org/users/5611882/items/TWZDCFI2"
+        },
+        {
+          "accessDate": "2020-05-23T01:49:35Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "5UA85WRC",
+          "linkMode": "linked_url",
+          "parentItem": "66DSX3HX",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/MKCKHJS4"
+            ]
+          },
+          "select": "zotero://select/library/items/5UA85WRC",
+          "tags": [],
+          "title": "risa",
+          "uri": "http://zotero.org/users/5611882/items/5UA85WRC",
+          "url": "https://doi.org/10.1111/risa.12988",
+          "version": 183
+        }
+      ],
+      "citationKey": "boveng2018",
+      "citekey": "boveng2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jay M.",
+          "lastName": "Ver Hoef"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David E.",
+          "lastName": "Withrow"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-01-20T01:39:47Z",
+      "dateModified": "2022-01-20T01:39:47Z",
+      "issue": "9",
+      "itemID": 87618,
+      "itemKey": "66DSX3HX",
+      "itemType": "journalArticle",
+      "key": "66DSX3HX",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "Z8GVP23M",
+          "note": "<p>resubmitted FY2017<br/>CY2018</p>",
+          "parentItem": "66DSX3HX",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/E5V9VFGE"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/Z8GVP23M",
+          "version": 183
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "K6EXANJ8",
+          "note": "The following values have no corresponding Zotero field:<br/>publisher: Wiley/Blackwell (10.1111)",
+          "parentItem": "66DSX3HX",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/V4QBCULH"
+            ]
+          },
+          "tags": [
+            {
+              "tag": "_EndnoteXML import"
+            }
+          ],
+          "uri": "http://zotero.org/users/5611882/items/K6EXANJ8",
+          "version": 183
+        }
+      ],
+      "pages": "1988-2009",
+      "publicationTitle": "Risk Analysis",
+      "relations": [],
+      "select": "zotero://select/library/items/66DSX3HX",
+      "tags": [
+        {
+          "tag": "Demography"
+        },
+        {
+          "tag": "hierarchical model"
+        },
+        {
+          "tag": "Leslie matrix"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "quasi-extinction"
+        },
+        {
+          "tag": "survival"
+        }
+      ],
+      "title": "A Bayesian analysis of abundance, trend, and population viability for harbor seals in Iliamna Lake, Alaska",
+      "uri": "http://zotero.org/users/5611882/items/66DSX3HX",
+      "version": 357,
+      "volume": "38"
+    },
+    {
+      "DOI": "10.1038/s41598-019-51699-4",
+      "ISSN": "2045-2322",
+      "abstractNote": "Climate change-driven alterations in Arctic environments can influence habitat availability, species distributions and interactions, and the breeding, foraging, and health of marine mammals. Phocine distemper virus (PDV), which has caused extensive mortality in Atlantic seals, was confirmed in sea otters in the North Pacific Ocean in 2004, raising the question of whether reductions in sea ice could increase contact between Arctic and sub-Arctic marine mammals and lead to viral transmission across the Arctic Ocean. Using data on PDV exposure and infection and animal movement in sympatric seal, sea lion, and sea otter species sampled in the North Pacific Ocean from 2001–2016, we investigated the timing of PDV introduction, risk factors associated with PDV emergence, and patterns of transmission following introduction. We identified widespread exposure to and infection with PDV across the North Pacific Ocean beginning in 2003 with a second peak of PDV exposure and infection in 2009; viral transmission across sympatric marine mammal species; and association of PDV exposure and infection with reductions in Arctic sea ice extent. Peaks of PDV exposure and infection following 2003 may reflect additional viral introductions among the diverse marine mammals in the North Pacific Ocean linked to change in Arctic sea ice extent.",
+      "attachments": [
+        {
+          "accessDate": "2020-05-23T05:43:39Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "Q4VQ3373",
+          "linkMode": "linked_url",
+          "parentItem": "3J67XHW2",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/6DPI6H7X"
+            ]
+          },
+          "select": "zotero://select/library/items/Q4VQ3373",
+          "tags": [],
+          "title": "s41598-019-51699-4",
+          "uri": "http://zotero.org/users/5611882/items/Q4VQ3373",
+          "url": "https://doi.org/10.1038/s41598-019-51699-4",
+          "version": 179
+        },
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/IKX3AJM9/VanWormer_2019_Viral.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "VanWormer_2019_Viral",
+          "uri": "http://zotero.org/users/5611882/items/IKX3AJM9"
+        }
+      ],
+      "citationKey": "vanwormer2019",
+      "citekey": "vanwormer2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "E.",
+          "lastName": "VanWormer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. A. K.",
+          "lastName": "Mazet"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Hall"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "V. A.",
+          "lastName": "Gill"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P. L.",
+          "lastName": "Boveng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T.",
+          "lastName": "Gelatt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "B. S.",
+          "lastName": "Fadely"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. E.",
+          "lastName": "Lander"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J.",
+          "lastName": "Sterling"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "V. N.",
+          "lastName": "Burkanov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R. R.",
+          "lastName": "Ream"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P. M.",
+          "lastName": "Brock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L. D.",
+          "lastName": "Rea"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "B. R.",
+          "lastName": "Smith"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Jeffers"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M.",
+          "lastName": "Henstock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. J.",
+          "lastName": "Rehberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K. A.",
+          "lastName": "Burek-Huntington"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S. L.",
+          "lastName": "Cosby"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. A.",
+          "lastName": "Hammond"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T.",
+          "lastName": "Goldstein"
+        }
+      ],
+      "date": "2019/11/07",
+      "dateAdded": "2022-01-20T01:39:46Z",
+      "dateModified": "2022-01-20T01:39:46Z",
+      "issue": "1",
+      "itemID": 87621,
+      "itemKey": "3J67XHW2",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Sci Rep-Uk",
+      "key": "3J67XHW2",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "WSB96W82",
+          "note": "<p>CY2019</p>",
+          "parentItem": "3J67XHW2",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/KTJCQZ67"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/WSB96W82",
+          "version": 179
+        }
+      ],
+      "pages": "15569",
+      "publicationTitle": "Scientific Reports",
+      "relations": [],
+      "select": "zotero://select/library/items/3J67XHW2",
+      "tags": [
+        {
+          "tag": "PEP"
+        }
+      ],
+      "title": "Viral emergence in marine mammals in the North Pacific may be linked to Arctic sea ice reduction",
+      "uri": "http://zotero.org/users/5611882/items/3J67XHW2",
+      "version": 357,
+      "volume": "9"
+    },
+    {
+      "DOI": "https://doi.org/10.1016/j.dsr2.2018.02.006",
+      "ISSN": "0967-0645",
+      "abstractNote": "We collated available satellite telemetry data for six species of ice-associated marine mammals in the Pacific Arctic: ringed seals (Pusa hispida; n = 118), bearded seals (Erignathus barbatus, n = 51), spotted seals (Phoca largha, n = 72), Pacific walruses (Odobenus rosmarus divergens, n = 389); bowhead whales (Balaena mysticetus, n = 46), and five Arctic and sub-arctic stocks of beluga whales (Delphinapterus leucas, n = 103). We also included one seasonal resident, eastern North Pacific gray whales (Eschrichtius robustus, n = 12). This review summarized the distribution of daily locations from satellite-linked transmitters during two analysis periods, summer (May–November) and winter (December–April), and then examined the overlap among species. Six multi-species core use areas were identified during the summer period: 1) Chukotka/Bering Strait; 2) Norton Sound; 3) Kotzebue Sound; 4) the northeastern Chukchi Sea; 5) Mackenzie River Delta/Amundsen Gulf; and 6) Viscount Melville Sound. During the winter period, we identified four multi-species core use areas: 1) Anadyr Gulf/Strait; 2) central Bering Sea; 3) Nunivak Island; and 4) Bristol Bay. During the summer period, four of the six areas were centered on the greater Bering Strait region and the northwestern coast of Alaska and included most of the species we examined. The two remaining summer areas were in the western Canadian Arctic and were largely defined by the seasonal presence of Bering-Chukchi-Beaufort stock bowhead whales and Eastern Beaufort Sea stock beluga whales, whose distribution overlapped during both summer and winter periods. During the winter period, the main multi-species core use area was located near the Gulf of Anadyr and extended northwards through Anadyr and Bering Straits. This area is contained within the Bering Sea “green belt”, an area of enhanced primary and secondary productivity in the Bering Sea. We also described available telemetry data and where they can be found as of 2017. These data are important for understanding ice-associated marine mammal movements and habitat use in the Pacific Arctic and should be archived, with appropriate metadata, to ensure they are available for future retrospective analyses.",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "path": "/Users/josh.london/Zotero/storage/F9ZFGNRU/Citta_2018_AMultispecies.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Citta_2018_AMultispecies",
+          "uri": "http://zotero.org/users/5611882/items/F9ZFGNRU"
+        },
+        {
+          "accessDate": "2020-05-23T01:54:24Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "attachment",
+          "key": "J56WQ96A",
+          "linkMode": "linked_url",
+          "parentItem": "4JSD4SCB",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/9QLDJBMN"
+            ]
+          },
+          "select": "zotero://select/library/items/J56WQ96A",
+          "tags": [],
+          "title": "S0967064517301789",
+          "uri": "http://zotero.org/users/5611882/items/J56WQ96A",
+          "url": "http://www.sciencedirect.com/science/article/pii/S0967064517301789",
+          "version": 181
+        }
+      ],
+      "citationKey": "citta2018a",
+      "citekey": "citta2018a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "John J.",
+          "lastName": "Citta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lloyd F.",
+          "lastName": "Lowry"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lori T.",
+          "lastName": "Quakenbush"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brendan P.",
+          "lastName": "Kelly"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anthony S.",
+          "lastName": "Fischbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Josh M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chadwick V.",
+          "lastName": "Jay"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kathryn J.",
+          "lastName": "Frost"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gregory O. ’Corry",
+          "lastName": "Crowe"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Justin A.",
+          "lastName": "Crawford"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter L.",
+          "lastName": "Boveng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Cameron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrew L.",
+          "lastName": "Von Duyke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mark",
+          "lastName": "Nelson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lois A.",
+          "lastName": "Harwood"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pierre",
+          "lastName": "Richard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Suydam"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mads Peter",
+          "lastName": "Heide-Jørgensen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roderick C.",
+          "lastName": "Hobbs"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dennis I.",
+          "lastName": "Litovka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marianne",
+          "lastName": "Marcoux"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alex",
+          "lastName": "Whiting"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amy S.",
+          "lastName": "Kennedy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John C.",
+          "lastName": "George"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jack",
+          "lastName": "Orr"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tom",
+          "lastName": "Gray"
+        }
+      ],
+      "date": "2018/02/21/",
+      "dateAdded": "2022-01-20T01:39:46Z",
+      "dateModified": "2022-01-20T01:39:46Z",
+      "itemID": 87622,
+      "itemKey": "4JSD4SCB",
+      "itemType": "journalArticle",
+      "key": "4JSD4SCB",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:54Z",
+          "dateModified": "2022-01-20T01:39:54Z",
+          "itemType": "note",
+          "key": "G4HUD3RI",
+          "note": "<p>FY2018<br/>CY2018</p>",
+          "parentItem": "4JSD4SCB",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/GE3EXH4S"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/G4HUD3RI",
+          "version": 181
+        }
+      ],
+      "pages": "132-153",
+      "publicationTitle": "Deep Sea Research Part II: Topical Studies in Oceanography",
+      "relations": [],
+      "select": "zotero://select/library/items/4JSD4SCB",
+      "tags": [
+        {
+          "tag": "Bearded seal"
+        },
+        {
+          "tag": "Beaufort Sea"
+        },
+        {
+          "tag": "Beluga whale"
+        },
+        {
+          "tag": "Bering Sea"
+        },
+        {
+          "tag": "Bowhead whale"
+        },
+        {
+          "tag": "Chukchi Sea"
+        },
+        {
+          "tag": "Core area"
+        },
+        {
+          "tag": "Distribution"
+        },
+        {
+          "tag": "Gray whale"
+        },
+        {
+          "tag": "Pacific walrus"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "Ringed seal"
+        }
+      ],
+      "title": "A multi-species synthesis of satellite telemetry data in the Pacific Arctic (1987–2015): overlap of marine mammal distributions and core use areas",
+      "uri": "http://zotero.org/users/5611882/items/4JSD4SCB",
+      "version": 357,
+      "volume": "152"
+    },
+    {
+      "DOI": "10.1016/j.gecco.2020.e01396",
+      "ISSN": "2351-9894",
+      "abstractNote": "Insights into the food habits of predators are essential for maintaining healthy predator populations and the functioning of ecosystems. Stomach content and stable isotope analyses were used to investigate the foraging habits of an apex predator, the Indo-Pacific bottlenose dolphin (Tursiops aduncus) in south-western Australia. A total of 2,594 prey items from 26 families were identified from the stomachs of 10 deceased stranded dolphins. Fish otoliths from stomach contents were used to identify fish to family or species level. Ninety-three percent of identified stomach contents were perciforme fishes, however, perciformes comprised only 30% of the catch during prey sampling. Gobiidae species, small fish generally < 100 mm in total length, were the most prevalent family identified in dolphin stomachs, accounting for 82% of identified prey, yet Gobiidae accounted for 12.7% of the catch during prey sampling. For stable isotope analyses, tissue samples from 14 free-ranging dolphins were analyzed for nitrogen (δ15N) and carbon (δ13C) ratios. From stable isotope analyses and boat-based dolphin photo-identification surveys (n = 339, 2007-2011), results indicated niche differentiation between coastal and inshore (bay and estuarine habitat) dolphins. Carbon signatures showed that coastal dolphins had a more pelagic diet compared to a benthic diet observed in the inshore dolphins. Whereas, nitrogen signatures of coastal dolphins showed higher nitrogen levels than offshore dolphins, likely attributed to feeding on enriched prey typical of estuarian environments. Overall, these results indicated that bottlenose dolphins in the study area were selective foragers and that their foraging is specialized by the habitats most frequently used.",
+      "attachments": [],
+      "citationKey": "mccluskey2020",
+      "citekey": "mccluskey2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "S. M.",
+          "lastName": "McCluskey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K. R.",
+          "lastName": "Sprogis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. M.",
+          "lastName": "London"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Bejder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N. R.",
+          "lastName": "Loneragan"
+        }
+      ],
+      "date": "December 23, 2020",
+      "dateAdded": "2022-01-20T01:39:45Z",
+      "dateModified": "2022-01-20T01:39:45Z",
+      "itemID": 87626,
+      "itemKey": "W9TAWQU2",
+      "itemType": "journalArticle",
+      "key": "W9TAWQU2",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-01-20T01:39:53Z",
+          "dateModified": "2022-01-20T01:39:53Z",
+          "itemType": "note",
+          "key": "KHKT5K67",
+          "note": "<p>CY2020</p>",
+          "parentItem": "W9TAWQU2",
+          "relations": {
+            "owl:sameAs": [
+              "http://zotero.org/groups/2472892/items/KS37EX2F"
+            ]
+          },
+          "tags": [],
+          "uri": "http://zotero.org/users/5611882/items/KHKT5K67",
+          "version": 172
+        }
+      ],
+      "pages": "e01396",
+      "publicationTitle": "Global Ecology and Conservation",
+      "relations": [],
+      "select": "zotero://select/library/items/W9TAWQU2",
+      "tags": [
+        {
+          "tag": "Bottlenose dolphin"
+        },
+        {
+          "tag": "diet"
+        },
+        {
+          "tag": "foraging ecology"
+        },
+        {
+          "tag": "PEP"
+        },
+        {
+          "tag": "predator-prey dynamics"
+        },
+        {
+          "tag": "stable isotopes"
+        },
+        {
+          "tag": "stomach content analyses"
+        },
+        {
+          "tag": "trophic ecology"
+        }
+      ],
+      "title": "Foraging preferences of an apex marine predator revealed through stomach content and stable isotope analyses",
+      "uri": "http://zotero.org/users/5611882/items/W9TAWQU2",
+      "url": "http://www.sciencedirect.com/science/article/pii/S2351989420309379",
+      "version": 357
+    }
+  ],
+  "version": {
+    "bbt": "6.1.7",
+    "zotero": "5.0.96.3"
+  }
+}
