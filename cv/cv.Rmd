@@ -43,14 +43,12 @@ tribble(
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-## Dissertation
-
 ```{r}
 tribble(
-  ~ Title, ~ With,  ~Where, ~ When, 
-  "Harbor Seals in Hood Canal: Predators and Prey", "Univ. of Washington", "Title:", "1998-2006"
+  ~ Title, ~ With,  ~Where, 
+  "Harbor Seals in Hood Canal: Predators and Prey", "Univ. of Washington", "Title:"
 ) %>% 
-  detailed_entries(what = Title, with = With, when = When, where = Where)
+  detailed_entries(what = Title, with = With, where = Where, when = " ")
 ```
 
 Research focused on estimation of predation of endangered summer chum salmon by
@@ -74,6 +72,38 @@ tribble(
     Where
   )
 ```
+
+## Awards
+
+```{r}
+tribble(
+  ~ Award, ~ Year, ~ Institution,
+  "Bronze Award", "2009", "NOAA"
+) %>% 
+  brief_entries(Award, Year, Institution)
+```
+
+Group award for successfully planning and implementing the first autonomous
+launch and retrieval of an Unmanned Aircraft System on-board a NOAA research
+vessel.
+
+## Select Committees
+
+```{r}
+tribble(
+  ~ Committee, ~ Year, ~ Institution, ~ Country, ~ Role,
+  "US Animal Telemetry Network (ATN) Task Team", "2014-2016", "NOAA/IOOS", "United States",
+  "task team member and implementation plan co-author",
+  "Special Committee on Seals (SCOS)", "2019-2021", "Natural Environment Research Council",
+  "United Kingdom","scientific advisor",
+  "Special Committee on Seals (SCOS)", "2022-2027", "Natural Environment Research Council",
+  "United Kingdom","committee chair",
+  "National Marine Mammal Peer Review Committee (NMMPRC) on Northwest Atlantic grey seals",
+  "2021", "Fisheries & Oceans Canada", "Canada","external reviewer",
+) %>% 
+  detailed_entries(Committee, Year, Institution, Country, Role)
+```
+
 
 ## R Packages
 
@@ -161,11 +191,11 @@ bibliography_entries("peer_pubs.bib")
 ```
 
 ## Publications   
-In-Press
+Technical Reports
 
 ```{r}
 
-# bibliography_entries("inpress_pubs.bib")
+bibliography_entries("tech_reports.bib")
 
 ```
 
