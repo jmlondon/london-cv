@@ -45,11 +45,17 @@ statistical ecology. Those collaborations have encouraged and allowed me to seek
 out quantitative approaches to address what are often complex questions about
 ecosystems and seal ecology.
 
-**Awareness of emerging technologies**  
+**Awareness of emerging technologies** ... 
 
 
 **Ecological science products should be F.A.I.R.**  
-
+I think ecological data and the science products we produce should follow the
+FAIR Data Principles (Findable, Accessible, Interoperable, and Reusable). I
+think this is even more relevant as a U.S. government scientist. That said, the
+funding, time, knowledge and skills, and technical infrastructure for widespread
+application of FAIR principles does not exist within our community. I'm
+committed to paving the way, in small efforts, and finding opportunities to
+advance these practices when possible.
 
 **Scientific coding is an essential skill** ... This is true not only for myself
 but also my collaborators, colleagues, and the greater community of ecological
@@ -57,7 +63,7 @@ sciences. Whenever possible, I try to extend my knowledge to those around me,
 spend time as a mentor, provide tutorials, and advocate for training and
 professional development of scientific coding within NOAA Fisheries.
 
-**Meaningful collaboration requires empathy**  
+**Meaningful collaboration requires empathy**  .. 
 
 
 
