@@ -97,6 +97,9 @@ Group award for successfully planning and implementing the first autonomous
 launch and retrieval of an Unmanned Aircraft System on-board a NOAA research
 vessel.
 
+## Leadership Activies
+
+
 ## Select Committees
 
 ```{r}
