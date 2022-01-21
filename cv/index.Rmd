@@ -72,7 +72,7 @@ seal for insights into sex-specific foraging ecology.
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Wildlife Biologist","2006-Present", "Marine Mammal Laboratory, Alaska Fisheries Science Center, NOAA Fisheries", "Position:"
+  "Wildlife Biologist","2006-Present", "Marine Mammal Laboratory, Alaska Fisheries Science Center, NOAA Fisheries", "Current Position:"
 ) %>% 
   detailed_entries(
     Position,
@@ -93,6 +93,16 @@ management of protected species, and budget and administrative planning.
 
 **NOAA Fisheries/AFSC Committees & Initiatives**
 
+- RStudio Shiny/Connect Enterprise Service Initiative & Governance Board
+- AFSC & NMFS Openscapes Initiatives and Champions Cohorts
+- Climate Fisheries Initiative, Blue Team
+- NMFS R User-Group Coordination Team
+
+**NOAA Competitive Grants Awarded**
+
+- NMFS Protected Species Toolbox Initiative (co-investigator)
+- OAR UAS RFP: Monitoring body condition of seals in Alaska using small UAS (co-author)
+- AFSC Regional Work Plan: Trophic roles of ice seals in the Bering and Arctic Marine Ecosystems (co-author)
 
 
 ## Awards
@@ -110,6 +120,15 @@ launch and retrieval of an Unmanned Aircraft System on-board a NOAA research
 vessel.
 
 ## Leadership Activies
+
+```{r}
+tribble(
+  ~ Activity, ~ Year, ~ Location, ~Role, ~Desc,
+  "7th International Bio-logging Symposium", "2021", "Virtually from Hawaii", "Co-Organizer",
+  "575+ attendees from 49 countries and 6 continents"
+) %>% 
+  detailed_entries(Activity, Year, Location, Role, why = Desc)
+```
 
 
 ## Select Committees
@@ -135,7 +154,7 @@ tribble(
 ```{r}
 tribble(
   ~ PkgName, ~ReleaseDate, ~URL,
-  "crawl","2008-present","https://github.com/NMML/crawl"
+  "**crawl**","2008-present","https://github.com/NMML/crawl"
 ) %>% 
   brief_entries(PkgName, ReleaseDate, URL)
 ```
@@ -150,7 +169,7 @@ the continuous-time stochastic movement process.
 ```{r}
 tribble(
   ~ PkgName, ~ReleaseDate, ~URL,
-  "pathroutr","2021-present","https://github.com/jmlondon/pathroutr"
+  "**pathroutr**","2021-present","https://github.com/jmlondon/pathroutr"
 ) %>% 
   brief_entries(PkgName, ReleaseDate, URL)
 ```
@@ -172,7 +191,7 @@ physiological capabilities of the study species.
 ```{r}
 tribble(
   ~ PkgName, ~ReleaseDate, ~URL,
-  "wcUtils","2014-present","https://github.com/jmlondon/wcUtils"
+  "**wcUtils**","2014-present","https://github.com/jmlondon/wcUtils"
 ) %>% 
   brief_entries(PkgName, ReleaseDate, URL)
 ```
@@ -189,7 +208,7 @@ Data Portal.
 ```{r}
 tribble(
   ~ PkgName, ~ReleaseDate, ~URL,
-  "tidextractr","2017-present","https://github.com/jmlondon/tidextractr"
+  "**tidextractr**","2017-present","https://github.com/jmlondon/tidextractr"
 ) %>% 
   brief_entries(PkgName, ReleaseDate, URL)
 ```
