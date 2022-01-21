@@ -19,7 +19,7 @@ library(vitae)
 ```
 
 ## Personal Statement
-I am a wildlife biologist and my career has focused on the ecology and
+My career as a wildlife biologist has focused on the ecology and
 conservation of seals in Alaska with an emphasis on potential impacts of
 climactic changes on abundance, trend, and movement ecology. Species of focus
 include harbor seals and the ice-associated seals (ribbon, spotted, bearded, and
