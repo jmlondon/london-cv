@@ -20,16 +20,25 @@ library(vitae)
 
 ## Personal Statement
 I am a wildlife biologist and my career has focused on the ecology and
-conservation of seals in Alaska with a special focus on potential impacts of
+conservation of seals in Alaska with an emphasis on potential impacts of
 climactic changes on abundance, trend, and movement ecology. Species of focus
 include harbor seals and the ice-associated seals (ribbon, spotted, bearded, and
-ringed seal). Research areas of interest include modeling of marine mammal
-movement and behavior from deployed tags, survey design and abundance estimation
+ringed seals). Research areas of interest include modeling of marine mammal
+movement and behavior from deployed bio-loggers, survey design and abundance estimation
 from aerial surveys, haul-out and dive behavior, and application of new
 technologies to improve ecological research. I am an expert in R and literate
-programming approaches (e.g. Rmarkdown) and I am increasingly focussed on open
+programming approaches (e.g. Rmarkdown) and I am increasingly focused on open
 science, reproducibility in ecological analysis, and improving scientific
 collaboration.
+
+Throughout my career, the following principles and ideas have guided me:
+
+- **Learning is a constant**
+- **Find the quantitative within the qualitative**
+- **Awareness of emerging technologies**
+- **Ecological science products should be F.A.I.R.**
+- **Scientific coding is an essential skill**
+- **Meaningful collaboration requires empathy**
 
 ## Education
 
@@ -81,6 +90,9 @@ technologies related to aerial surveys and bio-logging, communication of
 research results to the broader scientific community and Alaskan
 communities, support of the NOAA Fisheries mission of conservation and 
 management of protected species, and budget and administrative planning.
+
+**NOAA Fisheries/AFSC Committees & Initiatives**
+
 
 
 ## Awards
