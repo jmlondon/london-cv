@@ -33,12 +33,33 @@ collaboration.
 
 Throughout my career, the following principles and ideas have guided me:
 
-- **Learning is a constant**
-- **Find the quantitative within the qualitative**
-- **Awareness of emerging technologies**
-- **Ecological science products should be F.A.I.R.**
-- **Scientific coding is an essential skill**
-- **Meaningful collaboration requires empathy**
+**Learning is a constant** ... All of the programming, quantitative, and data
+science skills I employ on a daily basis have been learned since graduate
+school. In some cases, those skills were acquired through formal training
+opportunities. In most cases, those skills were self taught and developed
+because of my passion for continued learning.
+
+**Find the quantitative within the complexity of ecology** ... I am fortunate to
+have close collaborations with some of the finest mathematical statisticians in
+statistical ecology. Those collaborations have encouraged and allowed me to seek
+out quantitative approaches to address what are often complex questions about
+ecosystems and seal ecology.
+
+**Awareness of emerging technologies**  
+
+
+**Ecological science products should be F.A.I.R.**  
+
+
+**Scientific coding is an essential skill** ... This is true not only for myself
+but also my collaborators, colleagues, and the greater community of ecological
+sciences. Whenever possible, I try to extend my knowledge to those around me,
+spend time as a mentor, provide tutorials, and advocate for training and
+professional development of scientific coding within NOAA Fisheries.
+
+**Meaningful collaboration requires empathy**  
+
+
 
 ## Education
 
