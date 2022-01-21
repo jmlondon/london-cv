@@ -228,7 +228,9 @@ Peer Reviewed
 
 ```{r}
 
-bibliography_entries("peer_pubs.bib") 
+bibliography_entries("peer_pubs.bib") %>% 
+  mutate(issue_date = as.Date(issued)) %>% 
+  arrange(desc(issue_date))
 
 ```
 
@@ -237,7 +239,9 @@ Technical Reports
 
 ```{r}
 
-bibliography_entries("tech_reports.bib")
+bibliography_entries("tech_reports.bib")%>% 
+  mutate(issue_date = as.Date(issued)) %>% 
+  arrange(desc(issue_date))
 
 ```
 
