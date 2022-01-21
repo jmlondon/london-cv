@@ -104,21 +104,6 @@ management of protected species, and budget and administrative planning.
 - OAR UAS RFP: Monitoring body condition of seals in Alaska using small UAS (co-author)
 - AFSC Regional Work Plan: Trophic roles of ice seals in the Bering and Arctic Marine Ecosystems (co-author)
 
-
-## Awards
-
-```{r}
-tribble(
-  ~ Award, ~ Year, ~ Institution,
-  "Bronze Award", "2009", "NOAA"
-) %>% 
-  brief_entries(Award, Year, Institution)
-```
-
-Group award for successfully planning and implementing the first autonomous
-launch and retrieval of an Unmanned Aircraft System on-board a NOAA research
-vessel.
-
 ## Leadership Activies
 
 ```{r}
@@ -148,6 +133,19 @@ tribble(
   detailed_entries(Committee, Year, Institution, Country, Role)
 ```
 
+## Awards
+
+```{r}
+tribble(
+  ~ Award, ~ Year, ~ Institution,
+  "Bronze Award", "2009", "NOAA"
+) %>% 
+  brief_entries(Award, Year, Institution)
+```
+
+Group award for successfully planning and implementing the first autonomous
+launch and retrieval of an Unmanned Aircraft System on-board a NOAA research
+vessel.
 
 ## R Packages
 
