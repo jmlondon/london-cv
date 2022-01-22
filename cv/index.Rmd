@@ -45,7 +45,7 @@ statistical ecology. Those collaborations have encouraged and allowed me to seek
 out quantitative approaches to address what are often complex questions about
 ecosystems and seal ecology.
 
-**Awareness of emerging technologies** ... my commitment to a career of
+**Awareness of emerging technologies** ... My commitment to a career of
 constant learning has also fostered my radar for emerging technologies in realms
 outside of ecology (or outside my regular community) that might have potential
 for advancing our understanding of ecosystems. From artificial intelligence 
@@ -145,7 +145,7 @@ management of protected species, and budget and administrative planning.
 ```{r}
 tribble(
   ~ Activity, ~ Year, ~ Location, ~Role, ~Desc,
-  "7th International Bio-logging Symposium", "2021", "Virtually from Hawaii", "Co-Organizer",
+  "7th International Bio-logging Symposium", "2021", "Virtually from Hawaii", "Co-Organizer & Science Program Chair",
   "575+ attendees from 49 countries and 6 continents"
 ) %>% 
   detailed_entries(Activity, Year, Location, Role, why = Desc)
@@ -157,14 +157,14 @@ tribble(
 ```{r}
 tribble(
   ~ Committee, ~ Year, ~ Institution, ~ Country, ~ Role,
-  "US Animal Telemetry Network (ATN) Task Team", "2014-2016", "NOAA/IOOS", "United States",
-  "task team member and implementation plan co-author",
-  "Special Committee on Seals (SCOS)", "2019-2021", "Natural Environment Research Council",
-  "United Kingdom","scientific advisor",
   "Special Committee on Seals (SCOS)", "2022-2027", "Natural Environment Research Council",
   "United Kingdom","committee chair",
+  "Special Committee on Seals (SCOS)", "2019-2021", "Natural Environment Research Council",
+  "United Kingdom","scientific advisor",
   "National Marine Mammal Peer Review Committee (NMMPRC) on Northwest Atlantic grey seals",
   "2021", "Fisheries & Oceans Canada", "Canada","external reviewer",
+  "US Animal Telemetry Network (ATN) Task Team", "2014-2016", "NOAA/IOOS", "United States",
+  "task team member and implementation plan co-author"
 ) %>% 
   detailed_entries(Committee, Year, Institution, Country, Role)
 ```
