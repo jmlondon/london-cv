@@ -31,7 +31,7 @@ programming approaches (e.g. Rmarkdown) and I am increasingly focused on open
 science, reproducibility in ecological analysis, and improving scientific
 collaboration.
 
-Throughout my career, the following principles and ideas have guided me:
+These guiding principles and ideas often inform my actions:
 
 **Learning is a constant** ... All of the programming, quantitative, and data
 science skills I employ on a daily basis have been learned since graduate
@@ -45,8 +45,14 @@ statistical ecology. Those collaborations have encouraged and allowed me to seek
 out quantitative approaches to address what are often complex questions about
 ecosystems and seal ecology.
 
-**Awareness of emerging technologies** ... 
-
+**Awareness of emerging technologies** ... my commitment to a career of
+constant learning has also fostered my radar for emerging technologies in realms
+outside of ecology (or outside my regular community) that might have potential
+for advancing our understanding of ecosystems. From artificial intelligence 
+and machine learning, to thermal imaging capabilities, to advanced satellite
+communication platforms, to network routing in mapping applications, or
+the culture of open source software development, I'm always looking for 
+connections and collaborations.
 
 **Ecological science products should be F.A.I.R.**  
 I think ecological data and the science products we produce should follow the
@@ -63,7 +69,10 @@ sciences. Whenever possible, I try to extend my knowledge to those around me,
 spend time as a mentor, provide tutorials, and advocate for training and
 professional development of scientific coding within NOAA Fisheries.
 
-**Meaningful collaboration requires empathy**  .. 
+**Meaningful collaboration requires empathy** ... The nature of my work as an
+ecologist and as an employee of NOAA Fisheries always requires collaboration.
+Those collaborative efforts are rarely successful without a meaningful
+commitment to listening, empathy, and working toward common goals.
 
 
 
@@ -285,7 +294,9 @@ Pre-Print
 Oral and Poster
 
 ```{r}
-# ...
+bibliography_entries("presentations.bib")%>% 
+  mutate(issue_date = as.Date(issued)) %>% 
+  arrange(desc(issue_date))
 ```
 
 
