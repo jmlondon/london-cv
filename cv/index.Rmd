@@ -21,7 +21,7 @@ library(vitae)
 ## Personal Statement
 My career as a wildlife biologist has focused on the ecology and
 conservation of seals in Alaska with an emphasis on potential impacts of
-climactic changes on abundance, trend, and movement ecology. Species of focus
+climate changes on abundance, trend, and movement ecology. Species of focus
 include harbor seals and the ice-associated seals (ribbon, spotted, bearded, and
 ringed seals). Research areas of interest include modeling of marine mammal
 movement and behavior from deployed bio-loggers, survey design and abundance estimation
